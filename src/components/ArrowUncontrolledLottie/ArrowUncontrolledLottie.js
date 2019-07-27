@@ -17,6 +17,7 @@ class ArrowUncontrolledLottie extends Component {
     return (
       <div>
         <h3>Arrow Up</h3>
+        <h2>Lottie Uncontrolled</h2>
         <Lottie
           options={defaultOptions}
           height={400}

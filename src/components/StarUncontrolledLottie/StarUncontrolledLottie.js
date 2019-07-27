@@ -17,6 +17,7 @@ class StarUncontrolledLottie extends Component {
     return (
       <div>
         <h3>Spining Star</h3>
+        <h2>Lottie Uncontrolled</h2>
         <Lottie
           options={defaultOptions}
           height={400}

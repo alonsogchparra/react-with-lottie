@@ -7,14 +7,9 @@ import CheckControlledLottie from '../../components/CheckControlledLottie/CheckC
 class LottieControl extends Component {
   render () {
     return (
-      <div>
-        <h1>React with Lottie</h1>
-
-        <h2>Lottie Uncontrolled</h2>
+      <div className="lotties">
         <ArrowUncontrolledLottie />
         <StarUncontrolledLottie />
-
-        <h2>Lottie Controlled</h2>
         <CheckControlledLottie />
       </div>
     )

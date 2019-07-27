@@ -34,6 +34,7 @@ class CheckControlledLottie extends Component {
     return (
       <div>
         <h3>Check Animation</h3>
+        <h2>Lottie Controlled</h2>
         <Lottie
           options={defaultOptions}
           height={400}
