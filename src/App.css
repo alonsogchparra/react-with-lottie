@@ -23,6 +23,18 @@
   color: #61dafb;
 }
 
+.lotties {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+@media (min-width: 40rem) {
+  .lotties {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
